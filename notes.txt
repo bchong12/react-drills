@@ -1,0 +1,3 @@
+When filtering an array in the state, instead of permanently setting the array with setState, you can use a second state property and change that and filter with that. In this way, this.state remains constant.
+
+-this.setState updates much faster than using any other methods like push so try to use spread operator and this.setState as much as possible
